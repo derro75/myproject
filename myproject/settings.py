@@ -134,7 +134,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 LOGIN_REDIRECT_URL = '/dashboard'
 LOGIN_URL = 'login'
 
-LOW_QUANTITY = 3
+LOW_QUANTITY = 19
 
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': lambda request: True,
