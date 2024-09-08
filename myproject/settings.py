@@ -141,3 +141,7 @@ DEBUG_TOOLBAR_CONFIG = {
 }
 
 PORT = os.getenv('PORT', '10000') 
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://myproject-1-ffmb.onrender.com',
+]
